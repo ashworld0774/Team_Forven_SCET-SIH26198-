@@ -1,0 +1,41 @@
+# Local Source Directories (Preserved locally, tracked via SIH folders)
+/AAKRITI/
+/admin-panel/
+/backend/
+
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Local Environment Variables & Credentials
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build Outputs & Bundles
+dist/
+build/
+web-build/
+.expo/
+.next/
+out/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# OS & IDE Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.claude/
+
+# Temporary / Scratch Files
+scratch/
+tmp/

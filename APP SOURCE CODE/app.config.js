@@ -1,0 +1,21 @@
+import 'dotenv/config';
+
+export default {
+  expo: {
+    name: "AAkriti",
+    slug: "doctor-app",
+    version: "1.0.0",
+    scheme: "doctor-app",
+    orientation: "portrait",
+    icon: "https://res.cloudinary.com/dk2novgh2/image/upload/v1774185694/logo_xoaxud.png",
+    splash: {
+      image: "https://res.cloudinary.com/dk2novgh2/image/upload/v1774185694/logo_xoaxud.png",
+      resizeMode: "contain",
+      backgroundColor: "#ffffff",
+    },
+    plugins: ["expo-router", "expo-image-picker"],
+    extra: {
+      GROQ_API_KEY: process.env.GROQ_API_KEY,
+    },
+  },
+};
